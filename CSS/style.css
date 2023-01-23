@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  background-color: #f6f7fb;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.main {
+  margin-top: 100px;
+}
+/* login css */
+.lpage {
+  box-sizing: border-box;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 0 6px #ccc;
+  font-family: "Poppins", sans-serif;
+  border-radius: 6px;
+  display: flex;
+  padding: 32px;
+  background-color: #fff;
+}
+
+.lpage h1 {
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin: 0 0 24px;
+  background-color: #fff;
+}
+
+.lpage2 {
+  width: 100%;
+  padding-top: 16px;
+  font-size: 14px;
+  box-sizing: border-box;
+  border: 0;
+  border-bottom: 2px solid #8c8c8c;
+  margin-bottom: 16px;
+  outline: none;
+  background-color: #fff;
+}
+
+.lpage3 {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 14px 36px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background-color: #20b883;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 24px;
+}
+
+/* login css end*/
+
+/* header css */
+.main-nav {
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  box-shadow: 0 2px 4px #ccc;
+  background-color: #fff;
+  height: 60px;
+  padding: 0 48px;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-nav,
+.logo-div {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  letter-spacing: -1px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.8);
+}
+.Topbar_LogoWrapper {
+  margin-right: 36px;
+  background-color: #fff;
+}
+
+.Topbar_LogoWrapper img {
+  width: 24px;
+  height: 28px;
+  margin-right: 8px;
+  background-color: #fff;
+}
+
+nav {
+  display: flex;
+  background-color: #fff;
+  border-bottom: 2px solid #ccc;
+  margin-left: 52px;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 24px 0 12px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  margin: 0 10px;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+}
+.active {
+  border-bottom: 5px solid #00e091;
+  color: #00e091;
+}
+
+#logout {
+  position: absolute;
+  right: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.maincontainer {
+  margin-top: 100px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 8% 4%;
+}
+/* header css end */ 
+
+.homes {
+  display: flex;
+  align-items: baseline;
+}
+#filters {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.HomeOrderTable {
+  width: 100%;
+}
+#filtertxt {
+  font-size: 20px;
+  font-weight: bold;
+}
+label {
+  margin: 10px 0;
+}
+.logo-div img {
+  width: 25px;
+  margin-right: 8px;
+}
+.brand {
+  background-color: #fff;
+  font-size: 24px;
+  letter-spacing: -1px;
+  font-weight: 500;
+  margin: 0;
+  color: rgba(0,0,0,.8);
+}
+/* all page table css  */
+table {
+  width: 100%;
+  text-align: left;
+  border-spacing: 0px;
+}
+table th {
+  padding: 0 24px;
+}
+table td {
+  text-align: left;
+  padding: 12px 24px;
+  background-color: #fff;
+  font-size: 14px;
+  background-color: #fff;
+  border-bottom: 4px solid #f6f7fb;
+}
+table tr {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+
+/* user page css  */
+.User_Filter {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.User_Search {
+  width: calc(100% - 100px);
+  padding: 12px 24px;
+  font-size: 15px;
+  border: 0;
+  border-bottom: 2px solid #8c8c8c;
+  margin: 0 36px 0 0;
+  outline: none;
+  background-color: #ffffff;
+}
+
+.listButton {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 14px 36px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background-color: #20b883;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.UserList_SecondaryText {
+  color: #8c8c8c;
+}
